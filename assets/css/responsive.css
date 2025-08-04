@@ -1,0 +1,473 @@
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1440px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 90%; /* Use 90% of the screen width for large screens */
+        max-width: clamp(1440px, 90%, 2400px); /* Ensure it doesn't exceed 2400px */
+    }
+}
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1440px) {
+    .main-navbar .navbar ul {
+        padding-left: 200px;
+    }
+
+    .top_bar_left_item_wrapper .top_bar_left_item:last-child {
+        display: none;
+    }
+
+    .about_two_img {
+        right: 0;
+    }
+
+    .popular_category_content h2 {
+        font-size: 30px;
+    }
+
+    .slider_btn_two .owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    .slider_btn_two .owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+
+    #home_two_about_area .section_heading_two h2 {
+        line-height: 42px;
+        padding-top: 12px;
+    }
+
+    .banner_slider_content h2 {
+        padding: 20px 0 35px 0;
+        font-size: 70px;
+        line-height: 85px;
+    }
+
+    .banner_three_slider_content h2 {
+        font-size: 60px;
+        line-height: 74px;
+    }
+
+    .banner_three_slider_content p {
+        width: 100%;
+    }
+
+    .pet_love_content_wrapper h2 {
+        color: #fff;
+        font-size: 44px;
+        line-height: 63px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main_service_item_wrapper {
+        text-align: center;
+    }
+
+    .main_service_item_icon {
+        display: inherit;
+    }
+
+    .main_service_item_icon h3 {
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+
+    .main_service_inner_content {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .main_Service_price {
+        padding-top: 10px;
+        justify-content: space-around;
+    }
+
+    .main_banner_text_wrapper h1 {
+        font-size: 41px;
+        line-height: 64px;
+    }
+
+    .service_tabs_text {
+        display: inline;
+    }
+
+    .service_tabs_item {
+        display: inherit;
+        text-align: center;
+    }
+
+    .banner_slider_content h2 {
+        font-size: 58px;
+        line-height: 76px;
+        padding: 10px 0px 24px 0px;
+    }
+
+    .background_bg {
+        padding: 160px 0;
+    }
+
+    .about_two_img {
+        bottom: 0;
+    }
+
+    .food_card_img img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .food_card_wrapper {
+        padding: 30px 30px 0px 30px;
+        border-radius: 8px;
+        transition: var(--transition);
+    }
+
+    .popular_category_content h2 {
+        font-size: 24px;
+    }
+
+    .commit_img {
+        width: 80%;
+    }
+
+    .about_three_list li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .my_account_wrapper_right {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .shop_details_wrapper {
+        padding-top: 30px;
+    }
+
+    .product_review_details_item {
+        display: inherit;
+    }
+
+    .product_review_item_img {
+        padding-bottom: 10px;
+        width: auto;
+    }
+
+    .adoption_details_big_img img {
+        border-radius: 12px;
+        width: 100%;
+    }
+
+    .adoption_details_main_content {
+        border-radius: 12px;
+    }
+
+    .adoption_big_img {
+        padding-top: 10px;
+    }
+
+    .service_details_content {
+        padding: 25px 0;
+    }
+
+    .our_counter_item {
+        padding-bottom: 30px;
+    }
+
+    #video_area_main {
+        padding: 100px 0;
+    }
+
+    .counter_area_wrapper {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .arrow_down_consult {
+        display: none;
+    }
+
+    .arrow_up_consult {
+        display: none;
+    }
+
+    .about_area_left_wrapper {
+        padding-bottom: 30px;
+    }
+
+    .cta_right_side {
+        padding-top: 20px;
+    }
+
+    .footer_navitem_ara h3 {
+        padding-bottom: 15px;
+    }
+
+    .footer_navitem_ara {
+        padding-top: 25px;
+    }
+
+    .top_bar_left_item_wrapper {
+        justify-content: center;
+    }
+
+    .cart_tabel_bottom {
+        display: inherit;
+    }
+
+    .cart_submit_btn {
+        padding-bottom: 20px;
+    }
+
+    .cart_area_total_wrapper {
+        margin-top: 30px;
+    }
+
+    .blog_review_item {
+        display: inherit;
+    }
+
+    .blog_review_item_content {
+        padding-top: 15px;
+    }
+
+    .contact_card_item {
+        margin-bottom: 40px;
+    }
+
+    .contact_map_area {
+        margin-top: 30px;
+    }
+
+    .about_two_img {
+        bottom: 20%;
+    }
+
+    .food_card_wrapper {
+        margin-bottom: 50px;
+    }
+
+    #food_discount_area {
+        padding: 100px 0;
+    }
+
+    .commit_img {
+        width: 16%;
+    }
+
+    #home_two_adopt_section .adoption_card_wrapper {
+        margin-bottom: 30px;
+    }
+
+    .banner_slider_three {
+        padding: 150px 0;
+    }
+
+    .about_three_list li {
+        font-size: 16px;
+    }
+
+    .about_three_img_wrapper {
+        margin-bottom: 30px;
+    }
+
+    .our_team_wrapper {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .copyright_right {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .copyright_left {
+        text-align: center;
+    }
+
+    .footer_navitem_ara {
+        padding-top: 20px;
+    }
+
+    .banner_slider_content h2 {
+        font-size: 48px;
+        line-height: 64px;
+        padding: 10px 0px 24px 0px;
+    }
+
+    .banner_slider_content h4 {
+        font-size: 26px;
+    }
+
+    .background_bg {
+        padding: 140px 0;
+    }
+
+    .food_discount_wrapper h2 {
+        font-size: 62px;
+    }
+
+    .food_discount_wrapper h4 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .count_down_area ul {
+        padding-top: 20px;
+    }
+
+    .count_down_area ul li span {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .popular_category_content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .category_item img {
+        max-width: 60px;
+        height: auto;
+        margin: auto;
+    }
+
+    .popular_category_content h2 {
+        line-height: 50px;
+    }
+
+    .commit_img {
+        width: 25%;
+    }
+
+    .banner_three_slider_content h2 {
+        font-size: 52px;
+        line-height: 66px;
+    }
+
+    .banner_slider_three {
+        padding: 120px 0;
+    }
+
+    .pet_love_content_wrapper h2 {
+        color: #fff;
+        font-size: 36px;
+        line-height: 58px;
+        padding-bottom: 20px;
+    }
+
+    #pet_love_area {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .subscribe_wrapper {
+        padding: 40px 40px 40px 40px;
+    }
+
+    #testimonial_area .owl-theme .owl-nav {
+        position: inherit;
+        margin-top: 18px;
+    }
+
+    #testimonial_area .owl-carousel .owl-nav button.owl-prev {
+        position: inherit;
+        left: 0px;
+    }
+
+    #testimonial_area .owl-carousel .owl-nav button.owl-next {
+        position: inherit;
+        right: 0;
+    }
+
+    .background_bg {
+        padding: 100px 0;
+    }
+
+    .banner_slider_content h2 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .banner_slider_content h4 {
+        font-size: 20px;
+    }
+
+    .commit_img {
+        width: 30%;
+    }
+
+    .popular_category_wrapper {
+        margin-top: 12px;
+    }
+
+    .slider_nav_style .owl-theme .owl-nav {
+        bottom: 25px;
+    }
+
+    .food_discount_wrapper h2 {
+        font-size: 50px;
+    }
+
+    .food_discount_wrapper h4 {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    .food_discount_wrapper {
+        text-align: center;
+    }
+
+    .count_down_area ul {
+        justify-content: center;
+    }
+
+    .banner_three_slider_content h2 {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .section_heading_three h2 {
+        line-height: 36px;
+    }
+
+    .section_heading_three {
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width: 480px) {
+    .commit_img {
+        width: 40%;
+    }
+
+    .about_three_left_wrapper p span {
+        font-size: 16px;
+    }
+
+    .about_three_list li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 361px) {}
